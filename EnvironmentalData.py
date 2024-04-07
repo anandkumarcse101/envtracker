@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 from twilio.rest import Client
 
 # Load Twilio credentials securely from environment variables
-TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID', 'AC3461a9fe89716dd329d205477d554603')  # Replace with your actual SID
-TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN', '452f42ff68c24c905b8c64163cc6750e')  # Replace with your actual token
-TWILIO_PHONE_NUMBER = os.getenv('TWILIO_PHONE_NUMBER', '+16592468519')  # Replace with your Twilio number
+TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID', 'XXXXXXXXXXXXXXXXXXXXXX')  # Replace with your actual SID
+TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN', 'XXXXXXXXXXXXXXXXXXXX')  # Replace with your actual token
+TWILIO_PHONE_NUMBER = os.getenv('TWILIO_PHONE_NUMBER', 'XXXXXXXX')  # Replace with your Twilio number
 
 # Initialize Twilio client
 twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
